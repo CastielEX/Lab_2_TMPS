@@ -22,10 +22,10 @@ The app is a game where the player navigates a character through a series of lev
     Builder - to create complex objects such as the game map
 
 ## Here is were these 4 patterns were used
-   # Factory Method pattern: The LevelFactory class is an example of the Factory Method pattern. It provides a way to create different types of Level objects (EasyLevel, MediumLevel, and HardLevel) based on a given input (level_type). This allows for a more flexible and extensible way of creating objects than simply instantiating them directly.
+    Factory Method pattern: The LevelFactory class is an example of the Factory Method pattern. It provides a way to create different types of Level objects (EasyLevel, MediumLevel, and HardLevel) based on a given input (level_type). This allows for a more flexible and extensible way of creating objects than simply instantiating them directly.
 
-   # Abstract Factory pattern: The CharacterFactory class is an example of the Abstract Factory pattern. It provides a way to create different types of Character objects (Warrior and Mage) based on a given input (character_type). Like the Factory Method pattern, this allows for more flexibility and extensibility when creating objects.
+    Abstract Factory pattern: The CharacterFactory class is an example of the Abstract Factory pattern. It provides a way to create different types of Character objects (Warrior and Mage) based on a given input (character_type). Like the Factory Method pattern, this allows for more flexibility and extensibility when creating objects.
 
-   # Singleton pattern: The GameManager class is an example of the Singleton pattern. Only one instance of this class is allowed to exist, which is accessed through the get_instance() method. This ensures that there is only one GameManager object controlling the game at any given time.
+    Singleton pattern: The GameManager class is an example of the Singleton pattern. Only one instance of this class is allowed to exist, which is accessed through the get_instance() method. This ensures that there is only one GameManager object controlling the game at any given time.
 
-   # Builder pattern: The MapBuilder and MapDirector classes are an example of the Builder pattern. They provide a way to construct a complex object (map) step by step, by adding rows to the map one at a time. The MapBuilder class represents the actual builder, while the MapDirector class provides the steps for building the map.
+    Builder pattern: The MapBuilder and MapDirector classes are an example of the Builder pattern. They provide a way to construct a complex object (map) step by step, by adding rows to the map one at a time. The MapBuilder class represents the actual builder, while the MapDirector class provides the steps for building the map.
