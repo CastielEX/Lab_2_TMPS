@@ -21,7 +21,7 @@ The app is a game where the player navigates a character through a series of lev
     Builder - to create complex objects such as the game map
 
 ## Here is were these 4 patterns were used
-   Factory Method pattern: The LevelFactory class is an example of the Factory Method pattern. It provides a way to create different types of Level objects (EasyLevel, MediumLevel, and HardLevel) based on a given input (level_type). This allows for a more flexible and extensible way of creating objects than simply instantiating them directly.
+  * Factory Method pattern: The LevelFactory class is an example of the Factory Method pattern. It provides a way to create different types of Level objects (EasyLevel, MediumLevel, and HardLevel) based on a given input (level_type). This allows for a more flexible and extensible way of creating objects than simply instantiating them directly.
 
    Abstract Factory pattern: The CharacterFactory class is an example of the Abstract Factory pattern. It provides a way to create different types of Character objects (Warrior and Mage) based on a given input (character_type). Like the Factory Method pattern, this allows for more flexibility and extensibility when creating objects.
 
